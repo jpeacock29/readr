@@ -201,7 +201,7 @@ spec(df2)
 
 (This also allows you to access the full column specification if you're reading a very wide file. By default, readr will only print the specification of the first 20 columns.)
 
-If you want to manually specify the column types, you can start by copying and pasting this code, and then tweaking it fix the parsing problems.
+If you want to manually specify the column types, you can start by copying and pasting this code, and then tweaking it to fix the parsing problems.
 
 ```{r}
 df3 <- read_csv(
